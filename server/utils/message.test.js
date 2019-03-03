@@ -17,8 +17,8 @@ describe('generateMessage', () => {
 describe('generateLocationMessage', () => {
   it('should generate correct location object', () => {
     var from = 'Username'; 
-    var lat = 40.90687;
-    var lon = -74.1354996;
+    var lat = 12;
+    var lon = 15;
     var url = `https://www.google.com/maps?q=${lat},${lon}`;
     var locationMessage = generateLocationMessage(from, lat, lon);
     //console.log(locationMessage);
